@@ -7,7 +7,7 @@ import * as bodyParser from 'body-parser';
 import './testeHandler'
 import "./TestController";
 
-let merc = new Mercury(BrokerType.RABBITMQ, 'localhost', 'guest', 'guest', 'testApp', 'testService',60);
+let merc = new Mercury(BrokerType.RABBITMQ, 'localhost', 'guest', 'guest', 'testApp', 'testService',5);
 merc.init()
 
 let container = new Container();
